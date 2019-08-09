@@ -39,7 +39,7 @@ class VcfNetworkBreadcrumbs extends ThemableMixin(PolymerElement) {
         }
       </style>
       <div class="breadcrumbs-container">
-        <div id="root" class$="[[_rootStyle(context)]]">Root</div>
+        <div id="root" class$="[[_rootStyle(context)]]">My Root</div>
         <div id="container">
           <template is="dom-repeat" items="[[context]]">
             <iron-icon icon="hardware:keyboard-arrow-right"></iron-icon>
